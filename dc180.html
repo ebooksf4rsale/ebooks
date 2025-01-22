@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+<title>Who Moved My Cheese</title>
+<style>
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+/*  */
+.back {
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.back button {
+    padding: 10px;
+    font-size: 15px;
+}
+/*  */
+
+.context {
+    display: flex;
+    
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.left {
+    width: 20%;
+    margin-right: 0;
+}
+
+.right {
+    width: 50%;
+    margin-top: -10px;
+}
+
+.right p{
+    font-size: 1.1rem;
+}
+
+
+/*  */
+
+.card{
+    width: 300px;
+    
+    border-radius: 0px;
+    overflow: hidden;
+    margin: 0px;
+    margin-bottom: 60px;
+    margin-right: 50px;
+ 
+   
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+/* previous 16px */
+.card-content{
+    padding: 0;
+    text-align: center;
+    border-style: solid;
+    border-color: #d5d9d9;
+    padding: 10px;
+    
+   
+
+}
+
+.card-content h3{
+    font-size: 21px;
+    margin-bottom: 8px;
+   margin-top: 8px;
+}
+
+/* previous price */
+
+
+.card-content h3.price{
+    font-size: 24px;
+    margin-bottom: 3px;
+   margin-top: 15px;
+   color: red;
+}
+
+
+.card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: gold;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 1.2rem;
+    width: 70%;
+    font-weight: bold;
+}
+
+
+.card-content .btn:hover{
+  background-color: #DF2E38;
+  color: white;
+}
+
+
+#previous{
+  color: #666;  
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+#price1{
+    color: #666;
+    font-weight: lighter;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .context {
+        display: block;
+        
+    }
+    
+    .right {
+        width: 80%;
+        
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+}
+
+ul.nobullets{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* margin-left: 25px; */
+    font-size: large;
+    font-style: italic;
+}
+
+p span {
+    font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+
+<div class="back">
+    
+    
+</div>
+
+<div class="context">
+   <!--  -->
+   <div class="card">
+    <div>
+    <img src="./movedcheese.jpg">
+    </div>
+    <div class="card-content">
+       <div id="text">
+        
+        <h3 class="price"><span id="price1">Price:</span><span>&#36;</span>6.5 <s id="previous">&#36;12.99</s></h3>
+    </div>
+    <div>
+        <a href="./co180.html" class="btn">Buy Now</a>
+    </div>
+</div>
+</div>
+   <!--  -->
+
+<div class="right">
+    <h2>Who Moved My Cheese?: An A-Mazing Way to Deal with Change in Your Work and in Your Life</h2>
+    <p>by Spencer Johnson (Author), Kenneth Blanchard (Foreword) </p>
+   
+    <hr>
+    <h3>THE #1 INTERNATIONAL BESTSELLER WITH OVER 28 MILLION COPIES IN PRINT!</h3>
+    <h3>A timeless business classic, Who Moved My Cheese? uses a simple parable to reveal profound truths about dealing with change so that you can enjoy less stress and more success in your work and in your life.</h3>
+    <p>
+        <ul class="nobullets">
+            <li>It would be all so easy if you had a map to the Maze.</li>
+            <li>If the same old routines worked.</li>
+            <li>If they'd just stop moving "The Cheese."</li>
+            <li>But things keep changing...</li>
+        </ul>
+    </p>
+    <p>Most people are fearful of change, both personal and professional, because they don't have any control over how or when it happens to them. Since change happens either to the individual or by the individual, Dr. Spencer Johnson, the coauthor of the multimillion bestseller The One Minute Manager, uses a deceptively simple story to show that when it comes to living in a rapidly changing world, what matters most is your attitude.</p>
+    <p>Exploring a simple way to take the fear and anxiety out of managing the future, <span>Who Moved My Cheese?</span> can help you discover how to anticipate, acknowledge, and accept change in order to have a positive impact on your job, your relationships, and every aspect of your life.</p>
+
+
+
+    <hr>
+    <br>
+    <br>
+    
+</div>
+
+</div>
+</body>
+</html>
